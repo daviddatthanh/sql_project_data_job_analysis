@@ -20,3 +20,7 @@ WHERE
     job_title_short = 'Data Analyst'
 ORDER BY salary_year_avg DESC
 LIMIT 10;
+
+/*
+Top Five comopanies are: Mantys, Meta, AT&T, Pinterest, UCLAHealth
+*/
