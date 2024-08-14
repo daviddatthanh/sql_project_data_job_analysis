@@ -52,7 +52,7 @@ Here's the breakdown of the top data analyst jobs in 2023:
 - **Diverse Employers:** Companies like SmartAsset, Meta, and AT&T are among those offering high salaries, showing a broad interest across different industries.
 - **Job Title Variety:** There's a high diversity in job titles, from Data Analyst to Director of Analytics, reflecting varied roles and specializations within data analytics.
 
-![](image.png)
+![](assets\image.png)
 *Bar graph visualizing the salary for the top 10 salaries for data analysts; Graph geneerated by Excel from SQL results*
 
 ### 2. Skills for Top Paying Jobs
@@ -90,7 +90,7 @@ Here's the breakdown of the most demanded skills for the top 10 highest paying d
 - **Tableau** is also highly sought after, with a bold count of 6.
 Other skills like **R**, **Snowflake**, **Pandas**, and **Excel** show varying degrees of demand.
 
-![alt text](image-1.png)
+![alt text](assets\image-1.png)
 *Bar graph visualizing the count of skills for the top 10 paying jobs for data analysts; Excel generated this graph from my SQL query results*
 
 ### 3. Most In-demand skills overall
@@ -135,7 +135,7 @@ Here's the breakdown of the most demanded skills for data analysts in 2023
 | Azure    | 821                   |
 *Table of the demand for the top 5 skills in data analyst job postings*
 
-![alt text](image-2.png)
+![alt text](assets\image-2.png)
 *Bar graph visualizing the demand of the top 10 skills mentioend in job postings for data analysts; Excel generated this graph from my SQL query results*
 
 ### 4. Most In Demand Skills Based on Yearly Salary for Data Analyst
@@ -165,7 +165,7 @@ FROM
 ORDER BY number_of_jobs DESC;
 ```
 
-![alt text](image-3.png)
+![alt text](assets\image-3.png)
 *Bar graph visualizing the ranking of yearly salary offering for different skills against the job postings for each skills; Excel generated this graph from my SQL query results*
 
 The data are 2023 job postings, and it gives valuable insight into the demand and compensation for various technical skills in the job market. Among the most sought-after skills, SQL stands out with the highest number of job openings at 7,291, and an average yearly salary of $97,237.16. This indicates the widespread need for professionals proficient in SQL, particularly in roles related to data management and analysis.
