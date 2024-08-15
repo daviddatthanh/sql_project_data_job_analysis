@@ -74,7 +74,7 @@ Here's the breakdown of the most demanded skills for the top 10 highest paying d
 - **Python** follows closely with a bold count of 7.
 - **Tableau** is also highly sought after, with a bold count of 6.
 Other skills like **R**, **Snowflake**, **Pandas**, and **Excel** show varying degrees of demand.
-![alt text](assets\image-1.png)
+![alt text](assets/image-1.png)
 *Bar graph visualizing the count of skills for the top 10 paying jobs for data analysts; Excel generated this graph from my SQL query results*
 ### 3. Most In-demand skills overall
 This query helped identify the skills most frequently requested in job postings, directing focus to areas with high demand. The data does is inclusive of all data jobs, regardless of working locations.
@@ -115,7 +115,7 @@ Here's the breakdown of the most demanded skills for data analysts in 2023
 | Looker   | 868                   |
 | Azure    | 821                   |
 *Table of the demand for the top 5 skills in data analyst job postings*
-![alt text](assets\image-2.png)
+![alt text](assets/image-2.png)
 *Bar graph visualizing the demand of the top 10 skills mentioend in job postings for data analysts; Excel generated this graph from my SQL query results*
 ### 4. Most In Demand Skills Based on Yearly Salary for Data Analyst
 Exploring the average salaries associated with different skills revealed which skills are the highest paying for remote Data Analysts.
@@ -142,7 +142,7 @@ FROM
     skills_dim INNER JOIN job_remote ON skills_dim.skill_id = job_remote.skill_id
 ORDER BY number_of_jobs DESC;
 ```
-![alt text](assets\image-3.png)
+![alt text](assets/image-3.png)
 *Bar graph visualizing the ranking of yearly salary offering for different skills against the job postings for each skills; Excel generated this graph from my SQL query results*
 The data are 2023 job postings, and it gives valuable insight into the demand and compensation for various technical skills in the job market. Among the most sought-after skills, SQL stands out with the highest number of job openings at 7,291, and an average yearly salary of $97,237.16. This indicates the widespread need for professionals proficient in SQL, particularly in roles related to data management and analysis.
 Python, another high-demand skill, has 4,330 job openings with an average salary of $101,397.22. Python's versatility in programming and data analysis, combined with its use in machine learning and automation, makes it a critical skill in the technology sector. Similarly, Tableau and Power BI, tools used for data visualization, show strong demand with 3,745 and 2,609 job openings, and average salaries of $99,287.65 and $97,431.30, respectively. These tools are essential for turning complex data into actionable insights, a necessity for business intelligence and analytics roles.
